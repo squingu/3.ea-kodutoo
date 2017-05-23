@@ -1,21 +1,5 @@
-# 3. kodutöö – Chrome extension
+Chrome extension lubab kasutajal ühes päevas 100 sekundit (demo eesmärgil lühike aeg) reddit.com kasutada. Kui aeg saab läbi, siis kasutajal on võimalik lahtiolevat lehte edasi lugeda, aga uue lehe avamisel või lehe refreshil asendatakse saidi sisu käsuga midagi produktiivset teha. Extensioni ikoonile klikkides kuvatakse kui palju aega on sel päeval kulutatud redditi kasutamisele.
 
-Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud.
 
-**Töö võib teha ka kahekesi, kuid siis peab GitHubis nägema, kes mida tegi!**
+Andmebaasi kantakse user ID kuupäevana ja kasutaja user agent'i pikkuse + navigator.appCodeName pikkuse summana, mis peaks käesoleva extensioni jaoks piisama, kuid Chrome veebipoodi laadimiseks see muidugi ei sobiks. 
 
-## Nõuded
-
-1. Kirjelda README.md failis, mida rakendus teeb
-1. Rakendus peab tegema veebilehe/veebirakenduse kas ilusamaks, mugavamaks või huvitamaks
-1. Peab oleama piisavalt keerukas (midagi enemat kui tunnis tegmine)
-1. Rakendus peab salvestama andmeid serverisse (võib lahendada praegu laisalt ilma autentimiseta, kasuta nt [firebase](https://firebase.google.com/))
-1. Ole loominguleine, näiteks põnevad asjad millele saab brauser ligi
-    - bluetooth, sh pulsivöö
-    - mikrofon [näide](https://www.talater.com/annyang/)
-    - webcam [näide](https://revealjs.herokuapp.com/#/0/1)
-
-## Täiendav abimaterjal
-
-* Chrome extension API [JavaScript APIs](https://developer.chrome.com/extensions/api_index/)
-* Chrome extension'ite näited [Sample Extensions](https://developer.chrome.com/extensions/samples/)
