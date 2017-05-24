@@ -3,3 +3,12 @@ Chrome extension lubab kasutajal ühes päevas 100 sekundit (demo eesmärgil lü
 
 Andmebaasi kantakse user ID kuupäevana ja kasutaja user agent'i pikkuse + navigator.appCodeName pikkuse summana, mis peaks käesoleva extensioni jaoks piisama, kuid Chrome veebipoodi laadimiseks see muidugi ei sobiks. 
 
+`config.js` format:
+
+	var config = {
+		apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		authDomain: "yourdomain.firebaseapp.com",
+		databaseURL: "https://yourdomain.firebaseio.com",
+		storageBucket: "yourdomain.appspot.com",
+		messagingSenderId: "XXXXXXXXXXXX"
+	  };
